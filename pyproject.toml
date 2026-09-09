@@ -1,0 +1,19 @@
+[project]
+name = "studious-octo-robot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = """
+In Ho Ka
+ng""", email = "jaedong0817@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+studious-octo-robot = "studious_octo_robot:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
